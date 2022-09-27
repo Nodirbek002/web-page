@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+.search{
+    width: 150px;
+    border-radius: 10px;
+}
+#search{
+    padding-top: 20px;
+}
+.nav{
+    padding-top: 20px;
+}
+.head{
+    margin-top: 20px;
+}
+#mnyu{
+    color: rgb(123, 123, 118);
+    text-decoration: none;
+    font-weight: 700;
+}
+#mnyu:hover{
+    color: crimson;
+    transition-duration: 4s;
+}
+.body{
+    background-image: url(rasmlar/Capture.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position-y: -100px; */
+    background-clip: inherit;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    width: 100%;
+}
+#btn1{
+    border-radius: 10px;
+    font-weight: 700;
+    margin-left: 20px;
+}
+.text1{
+    font-size: 70px;
+    color: #deb37e;
+}
+.body1{
+    padding-top: 50px;
+}
+.text2{
+    font-size: 50px;
+    color: #deb37e;
+    text-align: center;
+    font-weight: 700;
+}
+.card{
+    height: 200px;
+}
