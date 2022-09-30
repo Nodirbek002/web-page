@@ -57,3 +57,194 @@
 .card{
     height: 200px;
 }
+
+.two{
+    position: relative;
+    margin-top: 100px;
+    padding: 100px;
+    margin-bottom: 10px;
+    bottom: 100px;
+}
+.two .two-s button{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    border: none;
+    margin-left: 50%;
+    margin-top: 40px;
+    transform: translate(-50%, -50%);
+    padding: 5px 30px;
+    background: rgb(255, 132, 0);
+    font-size: 22px;
+    border-radius: 3px 20px 3px 20px;
+}
+.two .two-s .two-img img{
+    width: 50%;
+
+}
+.two .two-s .two-img {
+    background: rgb(76, 69, 65);
+}
+.two .two-s .two-img h2{
+    position: absolute;
+    margin-left: 49%;
+    margin-top: 10%;
+    color: #fff;
+
+}
+.two .two-s .two-img p{
+    position: absolute;
+    margin-left: 49%;
+    margin-top: 17%;
+    color: #fff;
+    flex-direction: initial
+}
+
+.two .two-s .two-img a{
+    text-decoration: none;
+    position: absolute;
+    margin-left: 49%;
+    margin-top: 27%;
+    color: #fff;
+    flex-direction: initial;
+    background: rgb(255, 132, 0);
+    padding: 8px 29px;
+    border-radius: 18px;
+}
+.two .two-s .two-img1{
+    background-color: rgb(138, 82, 49);
+    text-align: right;
+}
+.two .two-s .two-img1 img{
+    width: 50%;
+
+}
+
+.two .two-s .two-img1 h2{
+    position: absolute;
+    margin-left: 4%;
+    margin-top: 10%;
+    color: #fff;
+    text-align: left;
+}
+.two .two-s .two-img1 p{
+    position: absolute;
+    margin-left: 4%;
+    margin-top: 17%;
+    color: #fff;
+    text-align: left;
+}
+
+.two .two-s .two-img1 a{
+    position: absolute;
+    color: #fff;
+    background-color: rgb(255, 132, 0);
+    text-decoration: none;
+    padding: 9px 30px; 
+    border-radius: 18px;
+    margin-left: -38.5%;
+    margin-top: 27%;
+}
+
+.three{
+    position: relative;
+    padding: 100px;
+    margin-top: -230px;
+}
+
+.three .three-c img{
+    width: 100%;
+}
+
+.four{
+    position: relative;
+    padding: 100px;
+    top: -100px;
+}
+.four .four-c{
+    display: flex;
+    justify-content: center;
+
+}
+.four .four-c .four-co{
+
+    padding: 21px;
+    flex: 0 0 33%;
+    max-width: 33%;
+    display: inline-block;
+    flex-direction: row;
+    /* width: calc(40% - 1px); */
+
+}
+.four .four-c .four-co h2{
+    text-align: left;
+    color: #eca650;
+}
+.four  .p{
+    color: black;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 20px;
+}
+.four  .h2{
+    color: black;
+    margin-top: 45px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.five{
+    position: relative;
+    padding: 100px;
+}
+
+.five .f-c img{
+    width: 100%;
+    margin-top: -240px;
+}
+
+.footer{
+    position: relative;
+    padding: 100px;
+    margin-top: -200px;
+    margin-bottom: 10px;;
+    z-index: -1;
+}
+
+.footer .footer-c{
+    position: relative;
+    background: #7F7770;
+    padding: 20px;
+}
+.footer .footer-c .f-con{
+    width: max-content;
+    margin-left: 600px;
+}
+.footer .footer-c .f-1{
+    display: inline-block;
+    width: calc(20% - 1px);
+    margin-left: 30px;
+
+}
+.footer .footer-c .f-1 h2{
+       color: rgb(0, 0, 0); 
+}
+.footer .footer-c .f-1 h4{
+    color: rgb(255, 255, 255); 
+    font-size: 18px;
+}
+.footer .footer-c .f-2{
+    text-align: left;
+    margin-left: -48%;
+    margin-top: -300px;
+    position: absolute;
+    color: #fff;
+}
+
+.footer .footer-c .f-2 i{
+    font-size: 22px;
+    background-color: #fff;
+    color: rgb(93, 91, 91);
+    padding: 10px 11px; 
+    border-radius: 50%;
+}
